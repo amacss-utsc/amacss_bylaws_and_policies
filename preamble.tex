@@ -7,7 +7,9 @@
 \usepackage{titlesec}
 
 % Section formatting
-\titleformat{\section}{\bf\Large}{Article \Roman{section}: }{0em}{}
+\titleformat{\section}{\newpage\bf\Large}{Article \Roman{section}: }{0em}{}
+
+\newcommand{\quotes}[1]{``#1''}
 
 % List formatting
 \setlist[enumerate,1]{label=\thesection.\arabic*, ref=\thesection.\arabic*}
